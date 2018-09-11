@@ -1,0 +1,15 @@
+
+/* LAYOUT */
+@import url("./layout/normalize.css");
+@import url("./layout/fonts.css");
+@import url("./layout/adjustments.css");
+
+/* BLOCKS */
+@import url("./blocks/intro.css");
+@import url("./blocks/header.css");
+@import url("./blocks/footer.css");
+@import url("./blocks/logo.css");
+@import url("./blocks/socials.css");
+@import url("./blocks/main-block.css");
+@import url("./blocks/aside.css");
+@import url("./blocks/about.css");

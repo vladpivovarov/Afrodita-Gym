@@ -1,0 +1,65 @@
+.socials__text {
+	margin-bottom: 8px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.socials__btns {
+	font-size: 0px;
+}
+
+.social__btn {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.social__link {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-image: url(../../img/icons/icon-sprite.png);
+}
+
+.social__link_vk {
+	background-position: 0 0;
+}
+
+.social__link_fb {
+	background-position: -100px 0;
+}
+
+.social__link_google {
+	background-position: -200px 0;
+}
+
+.social__link_tw {
+	background-position: -300px 0;
+}
+
+.social__link_mail {
+	background-position: -400px 0;
+}
+
+.social__link_vk:hover {
+	background-position: 0 100px;
+}
+
+.social__link_fb:hover {
+	background-position: -100px 100px;
+}
+
+.social__link_google:hover {
+	background-position: -200px 100px;
+}
+
+.social__link_tw:hover {
+	background-position: -300px 100px;
+}
+
+.social__link_mail:hover {
+	background-position: -400px 100px;
+}
+
+.social__btn:last-child {
+	margin-right: 0px;
+}

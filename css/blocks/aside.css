@@ -1,0 +1,73 @@
+
+.aside {
+	float: left;
+	width: 200px;
+}
+
+.nav {
+	margin-top: 30px;
+}
+
+.nav__link {
+	display: block;
+	padding: 15px 0;
+	text-decoration: none;
+	font-size: 0;
+}
+
+.nav__icon {
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 18px;
+	margin-right: 19px;
+	background-image: url(../../img/icons/icon-sprite.png);
+}
+
+.nav__icon_pulse {
+	background-position: -700px 2px;
+}
+
+.nav__icon_push {
+	background-position: -600px 2px;
+
+}
+
+.nav__icon_star {
+	background-position: -500px 0px;
+}
+
+.nav__text {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	color: #f89513;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+}
+
+.nav__link_active .nav__icon {
+	color: #221f1f;
+}
+
+.nav__link_active .nav__icon_pulse, .nav__link:hover .nav__icon_pulse {
+	background-position: -700px 102px;
+}
+
+.nav__link_active .nav__icon_push, .nav__link:hover .nav__icon_push{
+	background-position: -600px 102px;
+}
+
+.nav__link_active .nav__icon_star, .nav__link:hover .nav__icon_star{
+	background-position: -500px 100px;
+}
+
+.nav__link:hover .nav__text {
+	color: #221f1f;
+}
+
+.nav__link_active .nav__text {
+	color: #221f1f;
+}

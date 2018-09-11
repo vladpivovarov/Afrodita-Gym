@@ -1,0 +1,41 @@
+
+.footer__left, .footer__center, .footer__right {
+	float: left;
+	width: 33.3%;
+}
+
+.footer__left {
+	text-align: left;
+}
+
+.footer__center {
+	text-align: center;
+}
+
+.footer__right {
+	text-align: right;
+}
+
+.footer__design {
+	width: 270px;
+	padding: 9px 0px;
+}
+
+.design {
+	font-weight: lighter;
+	font-style: normal;
+	font-size: 14px;
+}
+
+.design__link, .design__autor {
+	font-weight: bold;
+	color: #fff;
+}
+
+.footer__socials {
+	display: inline-block;
+	width: 194px;
+	padding: 14px 0px;
+	text-align: left;
+}
+

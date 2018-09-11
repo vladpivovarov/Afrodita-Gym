@@ -1,0 +1,11 @@
+.logo {
+	display: inline-block;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	font-family: 'Gora', Arial, sans-serif;
+	font-size: 18px;
+	line-height: 54px;
+	color: #f89513;
+	font-style: normal;
+	text-decoration: none;
+}

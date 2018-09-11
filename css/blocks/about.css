@@ -1,0 +1,135 @@
+
+.about__img {
+	position: relative;
+	height: 355px;
+	overflow: hidden;
+	background: url("../../img/image/about-img.png") center center;
+	margin-bottom: 23px;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 49px;
+	text-transform: uppercase;
+}
+
+.about__title {
+	position: absolute;
+	top: 50%;
+	left: 70px;
+	transform: translateY(-50%);
+	margin-top: -12px;
+	color: white;
+}
+
+.about__text {
+	max-width: 700px;
+	font-weight: lighter;
+	line-height: 30px;
+	margin-bottom: 25px;
+}
+
+.about__text ul {
+	margin-left: 30px;
+	list-style-position: inside;
+}
+
+.about__text li {
+	list-style: disc;
+	padding-left: 15px;
+}
+
+.blackbox {
+	padding: 15px 30px;
+	background: #131415;
+	color: #fff;
+	font-weight: lighter;
+}
+
+.about__blackbox {
+	max-width: 700px;
+	margin-bottom: 55px;
+}
+
+.partners {
+	max-width: 700px;
+	margin-bottom: 70px;
+}
+
+.partners__title {
+	margin-bottom: 40px;
+}
+
+.partners__list {
+	font-size: 0px;
+	margin-bottom: 50px;
+}
+
+.partners__list:last-child {
+	margin-bottom: 0px;
+}
+
+.partners__item {
+	display: inline-block;
+	margin-right: 110px;
+}
+
+.partners__link {
+	display: block;
+	width: 160px;
+	height: 64px;
+	background-image: url(../../img/icons/partners-sprite.png);
+}
+
+.partners__link_fl {
+	background-position: 0 100px;
+}
+
+.partners__link_ma {
+	background-position: -200px 100px;
+}	
+
+.partners__link_li {
+	background-position: -400px 100px;
+}
+
+.partners__link_arni {
+	background-position: -600px 100px;
+}
+
+.partners__link_gr {
+	background-position: -800px 100px;
+}
+
+.partners__link_at {
+	background-position: -1000px 100px;
+}
+
+.partners__link_fl:hover {
+	background-position: 0 0px;
+}
+
+.partners__link_ma:hover {
+	background-position: -200px 0px;
+}	
+
+.partners__link_li:hover {
+	background-position: -400px 0px;
+}
+
+.partners__link_arni:hover {
+	background-position: -600px 0px;
+}
+
+.partners__link_gr:hover {
+	background-position: -800px 0px;
+}
+
+.partners__link_at:hover {
+	background-position: -1000px 0px;
+}
+
+.partners__item:last-child {
+	margin-right: 0px;
+}
+
